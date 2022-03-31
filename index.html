@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>MCAR</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+<header>
+	<div id="logo" onclick="slowScroll('#top')">
+		<span>MCAR</span>
+	</div>
+
+
+	<div id="about">
+		<a href="#" title="Possibilités" onclick="slowScroll('#main')" >Possibilités</a>
+		<a href="#" title="Oportunites" onclick="slowScroll('#overview')" >Oportunites</a>
+		<a href="#" title="FAQ" onclick="slowScroll('#faq')" >FAQ</a>
+		<a href="#" title="Contactes" onclick="slowScroll('#contacts')" >Contactes</a>
+	</div>
+
+	
+
+</header>
+
+	<div id="top">
+		<h1>Nous sommes les meilleurs!</h1>
+		<h3>Nous sommes premiers</h3>
+	</div>
+
+	<div id="main">
+		<div class="intro">
+			<h2>Nos services vous aideront</h2>
+			<span>services dans tous les domaines</span>
+		</div>
+		<div class="text">
+			<span>В ходе этого видео мы сделаем полноценный шаблон сайта на чистом HTML5 и CSS3. Дополнительно мы также поработаем с сервером и опубликуем наш сайт в Интернете на VDS сервер, используя панель VestaCP.</span>
+		</div>
+	</div>
+
+<div id="overview">
+	<h2>Oportunites</h2>
+	<h4>Avec nous tout est plus simple</h4>
+
+	<div class="img">
+		<img src="images/oportunity.png">
+		<span>Avec nous, blabla bla bla</span>
+	</div>
+
+	<div class="img">
+		<img src="images/profit.png">
+		<span>Moins cher comme autre</span>
+	</div>
+</div>
+
+	<div id="contacts">
+		<center><h5>Retour d'information</h5></center>
+		<form id="form-input">
+			<label for="name">Nom <span>*</span></label><br>
+			<input type="text" placeholder="tapez votre nom" name="name" id="name"><br>
+
+			<label for="email">Votre email <span>*</span></label><br>
+			<input type="email" placeholder="tapez votre email" name="email" id="email"><br>
+
+			<label for="message">Message <span>*</span></label><br>
+			<textarea placeholder="Tapes votre message" name="message" id="message"></textarea><br>
+
+			<div id="mess_send" class="btn">Envoyer</div>
+		</form>
+	</div>
+
+	<div id="faq">
+		<div>
+      <span class="title">Paiment</span><br>
+      <span class="heading">Comment le paiement sera effectué?</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <span class="heading">Comment le paiement sera effectué?</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <span class="heading">Comment le paiement sera effectué?</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+    </div>
+    <div>
+      <span class="title">Informations</span><br>
+      <span class="heading">Ce qui entre dans nos services?</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <span class="heading">Что входит в услуги сервиса</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <span class="heading">Что входит в услуги сервиса</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+    </div>
+    <div>
+      <span class="title">Garanties</span><br>
+      <span class="heading">Quelles garanties avons-nous?</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <span class="heading">Какие гарантии есть</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <span class="heading">Какие гарантии есть</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+    </div>
+		
+
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+	function slowScroll(id) {
+		$('html,body').animate({
+			scrollTop: $(id).offset().top
+	  }, 500);
+	}
+
+	$(document).on("scroll", function (){
+         if($(window).scrollTop() === 0)
+         	$("header").removeClass("fixed");
+         else
+         	$("header").attr("class","fixed");
+	});
+
+
+	</script>
+</body>
+</html>
