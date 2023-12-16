@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Iscra Radu</title>
+  <title>ISCRA Radu</title>
   <?php include("Back-end\links-connect.php");  ?>
 </head>
 <body>
