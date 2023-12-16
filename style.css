@@ -42,8 +42,8 @@ li {
 }
 
 .nav {
-    width: 200px;
-    height: 100%;
+    width: 250px;
+    height: 100vh;
     position: relative;
     top: 0;
     left: 0;
@@ -57,7 +57,7 @@ li {
     background-color: #eff0f3;
 }
 
-.nav a {
+.nav1 a {
     display: flex;
     align-items: center;
     margin: 5px;
@@ -67,11 +67,42 @@ li {
     transition: 0.3s;
 }
 
-.nav a:hover {
+.nav1 a:hover {
     margin: 5px 0 5px 0;
     text-decoration: none;
     background-color: #ff8e3c;
     scale: 1.05;
     color: #ffffff!important;
     transition: 0.2s;
+}
+
+#activeNav {
+    margin: 5px 0 5px 0;
+    text-decoration: none;
+    background-color: #ff8e3c;
+    scale: 1.05;
+    color: #ffffff!important;
+    transition: 0.2s;
+}
+
+.avatarGroup {
+    width: fit-content;
+}
+
+svg {
+    height: 80px!important;
+    width: 80px!important;
+}
+
+.socialM {
+    height: 40px!important;
+    width: 40px!important;
+    fill: #ff8e3c;
+    transition: 0.3s;
+}
+
+.socialM:hover {
+    scale: 1.10;
+    fill: #000000;
+    transition: 0.3s;
 }

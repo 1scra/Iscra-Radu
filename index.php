@@ -8,19 +8,31 @@
 </head>
 <body>
 
-  <div class="d-flex container-fluid w-100">
+  <div class="d-flex w-100">
    
       <!------------NAV------------->
-      <div class="nav d-flex flex-column justify-content-center container">
-       
-          <a href="index.php"><span class="material-symbols-outlined">window</span>Menu</a>
-          <a href="suivie_facture.php"><span class="material-symbols-outlined">description</span>Mes Notes de Frais</a>
-          <a href="saisie_frais.php"><span class="material-symbols-outlined">note_add</span>Nouvelles Saisies</a>
-        
+      <div class="nav d-flex flex-column justify-content-between">
+          <div class="d-flex w-100 justify-content-center mt-5">
+           <?php include("Media\logo.svg"); ?>
+          </div>
+
+          <nav class="nav1">
+            <a name="accueil" id="activeNav" href=""><span class="material-symbols-outlined   ">window</span>Accueil</a>
+            <a name="moi"     href=""><span class="material-symbols-outlined ">description</span>Competences</a>
+            <a name="projets" href=""><span class="material-symbols-outlined ">note_add</span>Nouvelles Saisies</a>
+            <a name="veille"  href=""><span class="material-symbols-outlined ">note_add</span>Nouvelles Saisies</a>
+            <a name="contact" href=""><span class="material-symbols-outlined ">note_add</span>Nouvelles Saisies</a>
+          </nav>
+
+          <div class="d-flex justify-content-center w-100 mb-4">
+            <a  class="socialM" href=""><?php include("Media\gitHub.svg"); ?></a>
+            <a  class="socialM" href=""><?php include("Media\insta.svg"); ?></a>
+            <a  class="socialM" href=""><?php include("Media\linkedIn.svg"); ?></a>
+          </div>
       </div>
       <!------------Autre contenue----->
-      <div class="container">
-        d
+      <div id="contenuElement" class="container-fluid p-5">
+        
       </div>
    
 
