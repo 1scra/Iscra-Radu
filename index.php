@@ -19,19 +19,19 @@
           <nav class="nav1">
             <a name="accueil" id="activeNav" href=""><span class="material-symbols-outlined   ">window</span>Accueil</a>
             <a name="moi"     href=""><span class="material-symbols-outlined ">description</span>Competences</a>
-            <a name="projets" href=""><span class="material-symbols-outlined ">note_add</span>Nouvelles Saisies</a>
-            <a name="veille"  href=""><span class="material-symbols-outlined ">note_add</span>Nouvelles Saisies</a>
-            <a name="contact" href=""><span class="material-symbols-outlined ">note_add</span>Nouvelles Saisies</a>
+            <a name="projets" href=""><span class="material-symbols-outlined ">note_add</span>Projets</a>
+            <a name="veille"  href=""><span class="material-symbols-outlined ">note_add</span>Veille tech</a>
+            <a name="contact" href=""><span class="material-symbols-outlined ">note_add</span>Contact</a>
           </nav>
 
-          <div class="d-flex justify-content-center w-100 mb-4">
-            <a  class="socialM" href=""><?php include("Media\gitHub.svg"); ?></a>
-            <a  class="socialM" href=""><?php include("Media\insta.svg"); ?></a>
-            <a  class="socialM" href=""><?php include("Media\linkedIn.svg"); ?></a>
+          <div class="nav2 d-flex justify-content-center w-100 mb-4">
+            <a  class="socialM" href="https://github.com/1scra" target="_blank"><?php include("Media\gitHub.svg"); ?></a>
+            <a  class="socialM" href="https://www.instagram.com/_1scra" target="_blank"><?php include("Media\insta.svg"); ?></a>
+            <a  class="socialM" href="https://www.linkedin.com/in/iscra-radu/" target="_blank"><?php include("Media\linkedIn.svg"); ?></a>
           </div>
       </div>
       <!------------Autre contenue----->
-      <div id="contenuElement" class="container-fluid p-5">
+      <div id="contenuElement" class="cm1 container-fluid p-5">
         
       </div>
    
