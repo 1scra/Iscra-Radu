@@ -7,5 +7,6 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 <!-- icone -->
 <link rel="icon" href="Media/logo.svg" type="image/x-icon">
+<script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1"></script>
 
 
