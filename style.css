@@ -42,10 +42,16 @@ li {
     height: 100vh;
 }
 
+#contenuElement {
+    margin-left: 250px;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
 .nav {
     width: 250px;
     height: 100vh;
-    position: relative;
+    position: fixed;
     top: 0;
     left: 0;
     border-right: 1px solid #e4e4e4;
@@ -121,19 +127,6 @@ svg {
     background-color: #eff0f3;
 }
 
-iframe {
-    z-index: 1;
-    transform: translate(50%, -50%);
-    height: 100vh;
-    right: 45%;
-    top: 70%;
-    position: fixed;
-}
-
-.spline-watermark {
-    display: none;
-}
-
 .titre1 {
     font-family: 'Monoton', cursive;
     font-size: 159px;
@@ -148,11 +141,12 @@ iframe {
 
 .titre2 {
     z-index: 2;
-    position: absolute;
-    transform: translate(50%, -50%);
-    left: 14%;
-    top: 40%;
     color: #000000;
+}
+
+.titre1,
+.titre2 {
+    opacity: 1!important;
 }
 
 .neonAnim {
@@ -176,4 +170,46 @@ iframe {
     55% {
         opacity: 0;
     }
+}
+
+
+/* --------- Contenue 2 ----------*/
+
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin-bottom: 0;
+}
+
+.section {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.ul-no-bullets {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ul-no-bullets li {
+    margin-bottom: 8px;
+}
+
+.margin-bottom-8 {
+    margin-bottom: 8px;
+}
+
+.project {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
