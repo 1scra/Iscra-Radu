@@ -1,7 +1,7 @@
 <div>
 <div class="header">
         <h1>Radu ISCRA</h1>
-        <p>20 ans | 07 58 27 58 50 | iscra.r000@gmail.com | Alfortville 94140</p>
+        <p>20 ans | Alfortville 94140</p>
     </div>
 
     <div class="section">

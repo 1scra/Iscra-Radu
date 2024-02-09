@@ -12,6 +12,12 @@ document.addEventListener('DOMContentLoaded', function() {
         xhr.onreadystatechange = function() {
             if (xhr.readyState === 4 && xhr.status === 200) {
                 contenuElement.innerHTML = xhr.responseText;
+
+                // Vérifiez si le contenu actuel est "contenu3.php" et appelez reloadModalEvents si nécessaire
+                if (url.includes('contenu3.php')) {
+                    setTimeout(reloadModalEvents, 0);
+                }
+
                 // Une fois le contenu chargé, sauvegardez-le dans le localStorage
                 localStorage.setItem('contenuActuel', xhr.responseText);
             }
@@ -19,6 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         xhr.send();
     }
+
 
     // Écoutez le clic sur chaque bouton de navigation
     navigationLinks.forEach(function(link, index) {

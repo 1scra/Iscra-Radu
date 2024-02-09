@@ -17,11 +17,11 @@
           </div>
 
           <nav class="nav1">
-            <a name="accueil" id="activeNav" href=""><span class="material-symbols-outlined   ">window</span>Accueil</a>
-            <a name="moi"     href=""><span class="material-symbols-outlined ">description</span>Competences</a>
-            <a name="projets" href=""><span class="material-symbols-outlined ">note_add</span>Projets</a>
-            <a name="veille"  href=""><span class="material-symbols-outlined ">note_add</span>Veille tech</a>
-            <a name="contact" href=""><span class="material-symbols-outlined ">note_add</span>Contact</a>
+            <a name="accueil" id="activeNav" href=""><span class="material-symbols-outlined   ">home</span>Accueil</a>
+            <a name="moi"     href=""><span class="material-symbols-outlined ">school</span>Competences</a>
+            <a name="projets" href=""><span class="material-symbols-outlined ">business_center</span>Projets</a>
+            <a name="veille"  href=""><span class="material-symbols-outlined ">newspaper</span>Veille tech</a>
+            <a name="contact" href=""><span class="material-symbols-outlined ">markunread_mailbox</span>Contact</a>
           </nav>
 
           <div class="nav2 d-flex justify-content-center w-100 mb-4">
@@ -31,7 +31,7 @@
           </div>
       </div>
       <!------------Autre contenue----->
-      <div id="contenuElement" class="cm1 container-fluid p-5">
+      <div id="contenuElement" class="cm1 container-fluid p-5 align-items-center justify-content-center">
         
       </div>
    
