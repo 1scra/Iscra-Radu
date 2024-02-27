@@ -1,4 +1,5 @@
 <!-- Bootstrap JS, Popper.js, and jQuery -->
+<script type="module" src="https://unpkg.com/@splinetool/viewer@1.0.54/build/spline-viewer.js"></script>
 <script src="java/PageCharger.js"></script>
 <script src="java/scripts.js"></script>
 <script src="java/projets-modal.js"></script>
