@@ -1,35 +1,113 @@
 <div>
 
-    <div class="project-container">
+   
         
-        <div class="project-description">
-            <h2>Projet WordPress : Catalogue de Produits et Diagnostic Mac</h2>
-            <p>Bienvenue sur la page de présentation de mon projet WordPress innovant. J'ai créé un template unique qui intègre un catalogue de produits avancé ainsi qu'une fonctionnalité de diagnostic pour les utilisateurs de Mac.</p>
+        <header >
+            <span class="cathegorie fs-4 text-warning" name="Dev-Web">Developpement web</span>
+            <h1 class="site-title fs-2 prj-titre">Site du Boutique avec E-Catalog et Calculateur des tarifs</h1>
+        </header>
+        
+        <a href="" class="btn btn-outline-secondary mt-4">Voir le site</a>
 
-            <div class="project-image" style="background-image: url('lien_de_ta_photo1.jpg');"></div>
+        <section class="row mt-4 w-75" id="introduction">
 
-            <p>Le catalogue de produits offre une expérience utilisateur fluide et dynamique, grâce à l'utilisation de JavaScript pour la navigation et la recherche. Chaque produit est soigneusement présenté, fournissant des informations détaillées et des options d'achat directes.</p>
+            <div class="introduction col-sm mr-3">
+                <p>Notre site a été créé dans le but d'aider les clients à connaître les prix de réparation pour leurs produits Apple. En plus de cela, nous mettons à votre disposition un catalogue en ligne présentant tous les ordinateurs disponibles à l'achat dans notre boutique.</p>
+            </div>
 
-            <div class="project-image" style="background-image: url('lien_de_ta_photo2.jpg');"></div>
+            <div class="client&tech col-sm d-flex">
+                <div class="client mr-4">
+                    <span class="d-flex mb-3 ligne"></span>
+                    <h4>Client</h4>
+                    <p>SoS Master</p>
+                </div>
+                <div class="tech">
+                    <span class="d-flex mb-3 ligne"></span>
+                    <h4>Technologies</h4>
+                    <p>WordPress, JS, HTML, CSS</p>
+                </div>
+            </div>
 
-            <p>Une fonctionnalité unique de ce projet est la widget de diagnostic Mac. Les utilisateurs peuvent soumettre les problèmes de leur Mac, et la widget propose une estimation de prix pour la réparation, basée sur des algorithmes sophistiqués et des bases de données de coûts.</p>
+        </section>
 
-            <p>Voici un extrait du code JavaScript utilisé pour la fonctionnalité de diagnostic :</p>
-            <pre>
-            // Fonction pour charger le contenu
-             function loadContent(url) {
-            var xhr = new XMLHttpRequest();
-            xhr.open('GET', url, true);
+        <div class="main row ">
+            <div class="photos col-sm mt-5">
+                <img class="IMp" src="Media/rep-mac-prj/1.png" alt="">
+                <img class="IMp" src="Media/rep-mac-prj/2.png" alt="">
+                <img class="IMp" src="Media/rep-mac-prj/3.png" alt="">
+            </div>
 
-            xhr.onreadystatechange = function() {
-                if (xhr.readyState === 4 && xhr.status === 200) {
-                    contenuElement.innerHTML = xhr.responseText;
-                    reloadModalEvents();
-                    // Une fois le contenu chargé, sauvegardez-le dans le localStorage
-                    localStorage.setItem('contenuActuel', xhr.responseText);
-                }
-            };
-            </pre>
+            <div class="project-container col-sm">
+                <div class="acc-pos" id="accordion">
+                    <div class="card mb-2">
+                    <div class="card-header" id="headingObjectifs">
+                        <h2 class="mb-0">
+                        <button class="btn " data-toggle="collapse" data-target="#collapseObjectifs" aria-expanded="true" aria-controls="collapseObjectifs">
+                            Objectifs du Projet
+                        </button>
+                        </h2>
+                    </div>
+
+                    <div id="collapseObjectifs" class="collapse show" aria-labelledby="headingObjectifs" data-parent="#accordion">
+                        <div class="card-body">
+                        <ul>
+                            <li>Concevoir une plateforme conviviale pour les utilisateurs Apple recherchant des informations détaillées sur les coûts de réparation.</li>
+                            <li>Implémenter un catalogue en ligne permettant de présenter de manière efficace les ordinateurs disponibles à l'achat.</li>
+                        </ul>
+                        </div>
+                    </div>
+                    </div>
+
+                    <!-- Répétez le même modèle pour les autres sections -->
+
+                    <div class="card mb-2">
+                    <div class="card-header" id="headingFonctionnalites">
+                        <h2 class="mb-0">
+                        <button class="btn collapsed" data-toggle="collapse" data-target="#collapseFonctionnalites" aria-expanded="false" aria-controls="collapseFonctionnalites">
+                            Fonctionnalités Principales
+                        </button>
+                        </h2>
+                    </div>
+                    <div id="collapseFonctionnalites" class="collapse" aria-labelledby="headingFonctionnalites" data-parent="#accordion">
+                        <div class="card-body">
+                        <p>Ce site propose une section de recherche des prix de réparation pour les produits Apple et un catalogue en ligne avec des informations détaillées sur chaque ordinateur en stock du boutique pour faciliter les achats sur place.</p>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="card mb-2">
+                    <div class="card-header" id="headingDefisRencontres">
+                        <h2 class="mb-0">
+                        <button class="btn collapsed" data-toggle="collapse" data-target="#collapseDefisRencontres" aria-expanded="false" aria-controls="collapseDefisRencontres">
+                            Défis Rencontrés
+                        </button>
+                        </h2>
+                    </div>
+                    <div id="collapseDefisRencontres" class="collapse" aria-labelledby="headingDefisRencontres" data-parent="#accordion">
+                        <div class="card-body">
+                        <p>Au cours de mon stage, j'ai dû surmonter des défis tels que l'adaptation aux multiples modèles de produits Apple et la nécessité d'assurer la démonstration précise des prix.</p>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="card mb-2">
+                    <div class="card-header" id="headingApprentissagesEvolutions">
+                        <h2 class="mb-0">
+                        <button class="btn collapsed" data-toggle="collapse" data-target="#collapseApprentissagesEvolutions" aria-expanded="false" aria-controls="collapseApprentissagesEvolutions">
+                            Apprentissages et Évolutions
+                        </button>
+                        </h2>
+                    </div>
+                    <div id="collapseApprentissagesEvolutions" class="collapse" aria-labelledby="headingApprentissagesEvolutions" data-parent="#accordion">
+                        <div class="card-body">
+                        <p>Ce projet a été une opportunité précieuse pendant mon stage, m'offrant l'occasion d'acquérir de l'expérience dans la personnalisation des sites pour des besoins spécifiques. J'ai également consolidé mes compétences en diagnostic et résolution de problèmes.</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+
+
+      
 </div>

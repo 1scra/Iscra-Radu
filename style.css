@@ -275,7 +275,7 @@ svg {
     height: calc(100% - 80px);
     width: calc(100% - 80px);
     background: rgb(255, 255, 255);
-    padding: 20px;
+    padding: 90px;
     box-sizing: border-box;
     z-index: 999;
 }
@@ -283,7 +283,7 @@ svg {
 #close-modal {
     position: sticky;
     float: right;
-    top: 12px;
+    top: -61px;
     cursor: pointer;
     background: none;
     border: none;
@@ -296,28 +296,77 @@ svg {
     /* Ajoutez du style pour le contenu de la fenêtre modale si nécessaire */
 }
 
+.text-warning {
+    color: #ff8e3c!important;
+}
+
+.photos img {
+    width: 100%;
+    /* Utilisez cette règle si vous voulez que les images remplissent la largeur de leur conteneur */
+    margin-bottom: 10px;
+    /* Ajoutez un espacement entre les images */
+}
+
+.IMp {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    /* Pour supprimer l'espace blanc en bas des images */
+    margin: 0 auto;
+    /* Pour centrer les images */
+}
+
+.acc-pos {
+    display: flex;
+    flex-direction: column;
+    top: 50px;
+    position: sticky;
+}
+
+.prj-titre {
+    font-weight: 900;
+    font-family: 'Segoe UI';
+}
+
+.ligne {
+    width: 100%;
+    height: 1px;
+    background-color: #919191;
+}
+
 .project-container {
-    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: fit-content;
     margin: 20px auto;
     background-color: white;
     padding: 20px;
-    border-radius: 5px;
+}
+
+.site-title {
+    margin: 0;
+}
+
+.project-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.project-image {
-    background-color: #ddd;
-    /* Couleur de fond gris pour l'image (div de remplacement) */
-    height: 200px;
-    /* Ajuste la hauteur selon tes besoins */
-    background-size: cover;
-    background-position: center;
-    border-radius: 5px;
-    margin-bottom: 10px;
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
 }
 
-.project-description {
-    text-align: justify;
+footer {
+    background-color: #ff8e3c;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
 }
 
 
