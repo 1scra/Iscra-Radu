@@ -46,6 +46,7 @@ li {
     margin-left: 250px;
     height: 100vh;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .nav {
@@ -367,6 +368,28 @@ footer {
     padding: 10px;
     bottom: 0;
     width: 100%;
+}
+
+
+/*Veille tech*/
+
+#container a,
+a#logo {
+    display: relative!important;
+    opacity: 0!important;
+}
+
+spline-viewer {
+    position: fixed;
+    z-index: 1!important;
+    margin-left: 280px;
+    margin-top: -520px;
+}
+
+.ve_text {
+    margin-top: 300px;
+    position: relative;
+    z-index: 5;
 }
 
 

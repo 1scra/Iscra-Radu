@@ -3,7 +3,7 @@
    
         
         <header >
-            <span class="cathegorie fs-4 text-warning" name="Dev-Web">Developpement web</span>
+            <span class="cathegorie fs-4 text-warning " name="Dev-Web">Developpement web</span>
             <h1 class="site-title fs-2 prj-titre">Site du Boutique avec E-Catalog et Calculateur des tarifs</h1>
         </header>
         
@@ -12,7 +12,7 @@
         <section class="row mt-4 w-75" id="introduction">
 
             <div class="introduction col-sm mr-3">
-                <p>Notre site a été créé dans le but d'aider les clients à connaître les prix de réparation pour leurs produits Apple. En plus de cela, nous mettons à votre disposition un catalogue en ligne présentant tous les ordinateurs disponibles à l'achat dans notre boutique.</p>
+                <p>Ce site a été créé dans le but d'aider les clients à connaître les prix de réparation pour leurs produits Apple. En plus de cela, j'ai mis à disposition des clients, un catalogue en ligne présentant tous les ordinateurs disponibles à l'achat dans la boutique.</p>
             </div>
 
             <div class="client&tech col-sm d-flex">
